@@ -1,5 +1,6 @@
 file = open("in.txt")
 lines = [line.strip() for line in file]
+file.close()
 ROWS = len(lines)
 COLS = len(lines[0])
 gears = {}
