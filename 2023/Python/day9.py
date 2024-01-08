@@ -1,4 +1,4 @@
-file = open("in.txt")
+file = open("inputs/in9.txt")
 all_numbers = [line.split() for line in file]
 all_numbers = [list(map(int, numbers)) for numbers in all_numbers]
 file.close()

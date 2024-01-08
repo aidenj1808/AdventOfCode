@@ -1,4 +1,4 @@
-file = open("in.txt")
+file = open("inputs/in8.txt")
 directions = file.readline().strip()
 file.readline()
 my_dict = {}

@@ -1,4 +1,4 @@
-file = open("in.txt")
+file = open("inputs/in1.txt")
 total1 = 0
 total2 = 0
 number_strings = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']

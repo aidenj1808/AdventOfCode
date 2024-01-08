@@ -1,6 +1,6 @@
 import numpy as np
 
-file = open("in.txt")
+file = open("inputs/in2.txt")
 part1 = 0
 part2 = 0
 

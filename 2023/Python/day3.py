@@ -1,4 +1,4 @@
-file = open("in.txt")
+file = open("inputs/in3.txt")
 lines = [line.strip() for line in file]
 file.close()
 ROWS = len(lines)

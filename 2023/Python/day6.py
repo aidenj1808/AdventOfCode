@@ -1,4 +1,4 @@
-file = open("in.txt")
+file = open("inputs/in6.txt")
 times = [int(time) for time in file.readline().strip().split()[1:]]
 record_distances = [int(dist) for dist in file.readline().strip().split()[1:]]
 file.close()

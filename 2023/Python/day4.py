@@ -1,4 +1,4 @@
-file = open("in.txt")
+file = open("inputs/in4.txt")
 part1 = 0
 part2 = []
 for i, line in enumerate(file):
