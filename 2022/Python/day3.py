@@ -18,6 +18,7 @@ for i, line in enumerate(file):
     if len(group) == 3:
         groups.append(group)
         group = []
+file.close()
 
 part2 = 0
 for group in groups:
