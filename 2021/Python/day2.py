@@ -14,5 +14,5 @@ with open("inputs/in2.txt") as file:
             aim -= int(line[1])
     part1 = x * y
     part2 = x * y2
-print(part1)
-print(part2)
+print(f"The answer for part 1 is: {part1}")
+print(f"The answer for part 2 is: {part2}")
