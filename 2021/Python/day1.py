@@ -15,4 +15,4 @@ for i in range(len(nums)):
     if new_sum > old_sum:
         part2 += 1
     old_sum = new_sum
-print(f"The answer for part 1 is: {part2}")
+print(f"The answer for part 2 is: {part2}")
