@@ -4,7 +4,8 @@ with open("in2.txt") as file:
         all_nums.append([int(x) for x in line.strip().split()])
 
 def is_safe(nums):
-    ascending_or_descending = nums == sorted(nums) or nums == sorted(nums, reverse=True)
+    ascending_or_descending = nums == sorted(nums) or \
+        nums == sorted(nums, reverse=True)
     safe = 1
     for i in range(len(nums) - 1):
         difference = abs(nums[i] - nums[i + 1])
