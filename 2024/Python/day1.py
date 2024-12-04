@@ -1,4 +1,4 @@
-with open("in1.txt") as file:
+with open("inputs/in1.txt") as file:
     nums1, nums2 = [], []
     for line in file:
         num1, num2 = [int(num) for num in line.strip().split()]

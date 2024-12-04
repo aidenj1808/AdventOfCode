@@ -1,4 +1,4 @@
-with open("in2.txt") as file:
+with open("inputs/in2.txt") as file:
     all_nums = []
     for line in file:
         all_nums.append([int(x) for x in line.strip().split()])
